@@ -1,0 +1,5 @@
+version: '3'
+services:
+  black-box-test-tool:
+    build: .
+    image: intactsoftwaresystems/black-box-test-tool-image:v1
